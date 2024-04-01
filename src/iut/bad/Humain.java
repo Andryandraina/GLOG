@@ -12,5 +12,11 @@ protected void details() {
 public String toString() {
 	return "Nom : "+nom+"\nPrenom: "+ prenom +"\nAge: "+ age;
 }
+public void manger() {
+	System.out.println(nom+ " "+prenom+ " mange");
 
+}
+public void boire() {
+	System.out.println(nom+ " "+prenom+" boire");
+}
 }
