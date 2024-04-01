@@ -21,4 +21,8 @@ public void manger() {
 public void boire() {
 	System.out.println(nom+ " "+prenom+" boire");
 }
+
+public void ami(Humain h) {
+    System.out.println( nom+ " "+ prenom + "et "+ h.nom+" "+h.prenom+ " sont des amis ");	
+}
 }
