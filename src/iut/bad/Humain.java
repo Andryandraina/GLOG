@@ -25,4 +25,7 @@ public void boire() {
 public void ami(Humain h) {
     System.out.println( nom+ " "+ prenom + "et "+ h.nom+" "+h.prenom+ " sont des amis ");	
 }
+public void ami( Humain h, int dureeAmitie ) {
+	System.out.println(nom+ " "+ prenom + "et "+ h.nom+" "+h.prenom+ " sont des amis depuis" + dureeAmitie+ "jours");
+}
 }

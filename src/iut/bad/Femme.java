@@ -12,6 +12,7 @@ public class Femme extends Humain {
 		    Homme homme = new Homme("John", "Smith", 30);
 		    Femme femme = new Femme("Alicia", "kristen", 25);
 		    homme.ami(femme);
+		    femme.ami(homme, 6);
 	} 
 	
 }
