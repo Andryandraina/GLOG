@@ -8,5 +8,9 @@ public abstract class Humain {
 protected void details() {
 	System.out.println("Nom: "+nom+"\nPrenom: "+ prenom +"\nAge: "+ age);
 	}
+@Override
+public String toString() {
+	return "Nom : "+nom+"\nPrenom: "+ prenom +"\nAge: "+ age;
+}
 
 }
